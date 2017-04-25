@@ -1,6 +1,6 @@
 # npmtest-random-token
 
-#### basic test coverage for  random-token (v0.0.8)  [![npm package](https://img.shields.io/npm/v/npmtest-random-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-random-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-random-token.svg)](https://travis-ci.org/npmtest/node-npmtest-random-token)
+#### basic test coverage for  [random-token (v0.0.8)](https://github.com/ashnur/random-token)  [![npm package](https://img.shields.io/npm/v/npmtest-random-token.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-random-token) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-random-token.svg)](https://travis-ci.org/npmtest/node-npmtest-random-token)
 
 #### Random token generation of given size
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-random-token/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-random-token/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-random-token/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-random-token/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-random-token/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-random-token/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-random-token/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-random-token/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-random-token/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-random-token/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-random-token/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-random-token/build/coverage.html/index.html)
 
@@ -35,21 +35,21 @@
 ```json
 
 {
-    "name": "random-token",
-    "description": "Random token generation of given size",
-    "version": "0.0.8",
-    "main": "index.js",
-    "scripts": {
-        "test": "node test/test.js",
-        "prepublish": "npm test"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git://github.com/ashnur/random-token.git"
+    "author": {
+        "name": "ashnur"
     },
     "bugs": {
         "url": "https://github.com/ashnur/random-token/issues"
     },
+    "dependencies": {},
+    "description": "Random token generation of given size",
+    "devDependencies": {},
+    "directories": {},
+    "dist": {
+        "shasum": "1cf845af3fb31e57f7caa4b9a173478c46483b61",
+        "tarball": "https://registry.npmjs.org/random-token/-/random-token-0.0.8.tgz"
+    },
+    "homepage": "https://github.com/ashnur/random-token",
     "keywords": [
         "token",
         "token-generator",
@@ -57,9 +57,25 @@
         "keygen",
         "random-token"
     ],
-    "author": "ashnur",
     "license": "BSD-2-Clause",
-    "readmeFilename": "README.md"
+    "main": "index.js",
+    "maintainers": [
+        {
+            "name": "ashnur"
+        }
+    ],
+    "name": "random-token",
+    "optionalDependencies": {},
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/ashnur/random-token.git"
+    },
+    "scripts": {
+        "prepublish": "npm test",
+        "test": "node test/test.js"
+    },
+    "version": "0.0.8",
+    "bin": {}
 }
 ```
 
